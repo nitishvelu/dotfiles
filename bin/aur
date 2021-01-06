@@ -1,0 +1,6 @@
+#!/usr/bin/bash
+pacinstall=$(sed 's/\n/ /g' <<< $(yay -Slq | fzf -m --preview 'yay -Si {1}'))
+if [ ! -z "$pacinstall" ]; then
+  yay -S $pacinstall
+fi
+unset pacinstall
