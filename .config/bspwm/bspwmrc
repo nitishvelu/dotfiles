@@ -7,6 +7,7 @@ picom --experimental-backends &
 source /home/nitish/.config/polybar/forest/launch.sh
 killall "deadd-notification-center"
 deadd-notification-center &
+wmname LG3D &
 feh --bg-fill ~/.config/awesome/theme/wallpapers/6.png
 autorandr --change
 bspc monitor eDP1 -d 1 2 3 4 5 
