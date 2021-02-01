@@ -19,7 +19,7 @@
   "idle-seeding-limit": 30,
   "idle-seeding-limit-enabled": false,
   "incomplete-dir": "/home/nitish/hdd/wip",
-  "incomplete-dir-enabled": enable,
+  "incomplete-dir-enabled": false,
   "lpd-enabled": false,
   "message-level": 2,
   "peer-congestion-algorithm": "",
