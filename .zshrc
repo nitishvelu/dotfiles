@@ -127,6 +127,8 @@ alias f="ranger"
 
 alias ls="colorls"
 alias v="nvim"
+alias song='youtube-dl --ignore-config -f bestaudio/best --extract-audio --audio-format mp3 --metadata-from-title "%(artist)s - %(title)s" --audio-quality 0 --embed-thumbnail --output "~/Music/%(title)s.%(ext)s" --add-metadata'
+
 # jump config
 eval "$(jump shell)"
 source /usr/share/fzf/completion.zsh
