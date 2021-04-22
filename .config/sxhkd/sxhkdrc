@@ -29,12 +29,13 @@ super + q
 	bspc node -c
 # browser
 super + b
-    chromium &
+    google-chrome &
 super + p
-    chromium --incognito &
+    google-chrome --incognito &
 # alternate between the tiled and monocle layout
 super + m
-	bspc desktop -l next
+	# bspc desktop -l next 
+    bspc node -t \~fullscreen
 
 # send the newest marked node to the newest preselected node
 super + y
