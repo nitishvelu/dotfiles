@@ -29,9 +29,9 @@ super + q
 	bspc node -c
 # browser
 super + b
-    google-chrome &
+    brave &
 super + p
-    google-chrome --incognito &
+    brave --incognito &
 # alternate between the tiled and monocle layout
 super + m
 	# bspc desktop -l next 
