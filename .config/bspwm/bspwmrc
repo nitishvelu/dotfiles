@@ -13,6 +13,7 @@ feh --bg-fill ~/.config/awesome/theme/wallpapers/6.png
 autorandr --change
 bspc monitor eDP-1 -d 1 2 3 4 5 
 bspc monitor HDMI-1-0 -d 6 7 8 9 0 
+xset -dpms s off &
 bspc config border_width         2
 bspc config window_gap          12
 bspc config split_ratio          0.50
