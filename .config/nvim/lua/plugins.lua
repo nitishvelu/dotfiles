@@ -81,6 +81,9 @@ return require("packer").startup(
         use {"glepnir/galaxyline.nvim", opt = true}
         use {"romgrk/barbar.nvim", opt = true}
 
+        -- Terminal
+        use {"voldikss/vim-floaterm",opt = true}
+        
         require_plugin("nvim-lspconfig")
         require_plugin("lspsaga.nvim")
         require_plugin("nvim-lspinstall")
@@ -103,6 +106,7 @@ return require("packer").startup(
         require_plugin("nvcode-color-schemes.vim")
         require_plugin("nvim-web-devicons")
         require_plugin("galaxyline.nvim")
+        require_plugin("vim-floaterm") 
         require_plugin("barbar.nvim")
     end
 )
