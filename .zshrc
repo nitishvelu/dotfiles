@@ -17,6 +17,8 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export EDITOR="nvim"
 export HISTFILESIZE=1000000000
 export HISTSIZE=1000000000
+export JAVA_OPTS='-XX:+IgnoreUnrecognizedVMOptions --add-modules java.se.ee'
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -87,7 +89,8 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
-export PATH="$PATH:/home/nitish/anaconda3/bin:$HOME/.cargo/bin:/home/nitish/anaconda3/condabin:/home/nitish/bin:/home/nitish/platform-tools:/home/nitish/.gem/ruby/2.7.0/bin"
+export PATH="$PATH:/home/nitish/anaconda3/bin:/home/nitish/snap/flutter/common/flutter/bin:$HOME/.cargo/bin:/home/nitish/anaconda3/condabin:/home/nitish/bin:/home/nitish/platform-tools:/home/nitish/.gem/ruby/2.7.0/bin"
+export CHROME_EXECUTABLE="brave" 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 export USE_CCACHE=1
