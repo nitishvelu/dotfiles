@@ -17,7 +17,6 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export EDITOR="nvim"
 export HISTFILESIZE=1000000000
 export HISTSIZE=1000000000
-export JAVA_OPTS='-XX:+IgnoreUnrecognizedVMOptions --add-modules java.se.ee'
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
