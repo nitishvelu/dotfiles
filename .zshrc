@@ -24,6 +24,7 @@ export HISTSIZE=1000000000
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
+
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -94,6 +95,8 @@ export CHROME_EXECUTABLE="brave"
 # export LANG=en_US.UTF-8
 export USE_CCACHE=1
 export CCACHE_EXEC=/usr/bin/ccache
+# open gl
+MESA_LOADER_DRIVER_OVERRIDE=noveau
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
