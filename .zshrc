@@ -14,7 +14,7 @@ alias incognito="chromium --incognito"
 export ZSH="/home/nitish/.oh-my-zsh"
 export MYVIMRC="/home/nitish/.config/nvim/init.vim"
 export XDG_CONFIG_HOME="$HOME/.config"
-export EDITOR="lvim"
+export EDITOR="nvim"
 export HISTFILESIZE=1000000000
 export HISTSIZE=1000000000
 
@@ -130,7 +130,8 @@ alias f="ranger"
 # ls v vim neovimm config
 
 alias ls="colorls"
-alias v="lvim"
+alias v="nvim"
+alias lv="lvim"
 alias song='youtube-dl --ignore-config -f bestaudio/best --extract-audio --audio-format mp3 --metadata-from-title "%(artist)s - %(title)s" --audio-quality 0 --embed-thumbnail --output "~/Music/%(title)s.%(ext)s" --add-metadata'
 
 # jump config
