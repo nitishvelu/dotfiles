@@ -3,7 +3,8 @@
 pgrep -x sxhkd > /dev/null || sxhkd &
 killall "picom"
 killall "polybar"
-source /home/nitish/.config/polybar/forest/launch.sh
+# source /home/nitish/.config/polybar/forest/launch.sh
+polybar -q main -c "$HOME/.config/polybar/forest/config.ini" &	
 killall "deadd-notification-center"
 deadd-notification-center &
 wmname LG3D &
