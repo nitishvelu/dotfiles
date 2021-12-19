@@ -31,7 +31,7 @@ bspc rule -a jetbrains-studio state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
-feh --bg-fill ~/.config/awesome/theme/wallpapers/6.png
+#feh --bg-fill ~/.config/awesome/theme/wallpapers/6.png
 xsetroot -cursor_name left_ptr &
 capesc
 bspc config focus_follows_pointer true

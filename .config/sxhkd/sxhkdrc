@@ -63,7 +63,7 @@ super + ctrl + {m,x,y,z}
 # focus/swap
 #lock
 super + shift + l
-    i3lock-fancy &
+  i3lock-fancy-rapid 3 8
 
 # focus the node in the given direction
 super + {_,shift + }{h,j,k,l}
