@@ -9,7 +9,8 @@ killall "deadd-notification-center"
 deadd-notification-center &
 wmname LG3D &
 transmission-daemon &
-feh --bg-fill ~/.config/awesome/theme/wallpapers/6.png
+# feh --bg-fill ~/.config/awesome/theme/wallpapers/6.png
+wal -R
 autorandr --change benq 
 bspc monitor eDP-1 -d 1 2 3 4 5 
 bspc monitor HDMI-1-0 -d 6 7 8 9 0 
@@ -35,6 +36,17 @@ xsetroot -cursor_name left_ptr &
 capesc
 bspc config focus_follows_pointer true
 bspc config border_width 3
-bspc config normal_border_color "#8be9fd"
-bspc config active_border_color "#8be9fd"
-bspc config focused_border_color "#ff0087"
+#bspc config normal_border_color "#8be9fd"
+#bspc config active_border_color "#8be9fd"
+#bspc config focused_border_color "#ff0087"
+# source the colors.
+. "${HOME}/.cache/wal/colors.sh"
+
+# Set the border colors.
+bspc config normal_border_color "$color1"
+bspc config active_border_color "$color2"
+bspc config focused_border_color "$color15"
+# Use the line below if you are on bspwm >= 0.9.4
+bspc config presel_feedback_color "$color1"
+# Use the line below if you are on bspwm < 0.9.4
+#bspc config presel_border_color "$color1"

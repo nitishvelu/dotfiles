@@ -139,3 +139,8 @@ eval "$(jump shell)"
 source /usr/share/fzf/completion.zsh
 source /usr/share/fzf/key-bindings.zsh
 source /home/nitish/bin/capesc
+
+# pywal
+(cat ~/.cache/wal/sequences &)
+source ~/.cache/wal/colors-tty.sh
+
