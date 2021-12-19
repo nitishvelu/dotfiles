@@ -3,14 +3,13 @@
 pgrep -x sxhkd > /dev/null || sxhkd &
 killall "picom"
 killall "polybar"
-picom --experimental-backends &
 source /home/nitish/.config/polybar/forest/launch.sh
 killall "deadd-notification-center"
 deadd-notification-center &
 wmname LG3D &
 transmission-daemon &
-# feh --bg-fill ~/.config/awesome/theme/wallpapers/6.png
 wal -R
+# feh --bg-fill ~/.config/awesome/theme/wallpapers/6.png
 autorandr --change benq 
 bspc monitor eDP-1 -d 1 2 3 4 5 
 bspc monitor HDMI-1-0 -d 6 7 8 9 0 
@@ -32,6 +31,8 @@ bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
 #feh --bg-fill ~/.config/awesome/theme/wallpapers/6.png
+wal -R
+picom --experimental-backends &
 xsetroot -cursor_name left_ptr &
 capesc
 bspc config focus_follows_pointer true
