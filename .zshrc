@@ -130,7 +130,7 @@ alias f="ranger"
 # ls v vim neovimm config
 
 alias ls="colorls"
-alias v="nvim"
+alias v="kitty @ set-spacing padding=0 margin=0 && nvim"
 alias lv="lvim"
 alias song='youtube-dl --ignore-config -f bestaudio/best --extract-audio --audio-format mp3 --metadata-from-title "%(artist)s - %(title)s" --audio-quality 0 --embed-thumbnail --output "~/Music/%(title)s.%(ext)s" --add-metadata'
 
