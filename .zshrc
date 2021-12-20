@@ -141,6 +141,7 @@ source /usr/share/fzf/key-bindings.zsh
 source /home/nitish/bin/capesc
 
 # pywal
-(cat ~/.cache/wal/sequences &)
+#(cat ~/.cache/wal/sequences &)
+(cat $HOME/.config/wpg/sequences &)
 source ~/.cache/wal/colors-tty.sh
 
