@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/nitish/.config/wpg/wallpapers/032.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#071115",
+        "foreground": "#dfeceb",
+        "cursor": "#dfeceb"
+    },
+    "colors": {
+        "color0": "#071115",
+        "color1": "#238F71",
+        "color2": "#83827D",
+        "color3": "#156D8D",
+        "color4": "#1DA099",
+        "color5": "#3FCABD",
+        "color6": "#9DCCC7",
+        "color7": "#dfeceb",
+        "color8": "#9ca5a4",
+        "color9": "#238F71",
+        "color10": "#83827D",
+        "color11": "#156D8D",
+        "color12": "#1DA099",
+        "color13": "#3FCABD",
+        "color14": "#9DCCC7",
+        "color15": "#dfeceb"
+    }
+}

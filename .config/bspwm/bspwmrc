@@ -4,12 +4,12 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 killall "picom"
 killall "polybar"
 # source /home/nitish/.config/polybar/forest/launch.sh
+bash "$HOME/.config/wpg/wp_init.sh" &
 polybar -q main -c "$HOME/.config/polybar/forest/config.ini" &	
 killall "deadd-notification-center"
 deadd-notification-center &
 wmname LG3D &
 #transmission-daemon &
-wal -R
 # feh --bg-fill ~/.config/awesome/theme/wallpapers/6.png
 autorandr --change benq 
 bspc monitor eDP-1 -d 1 2 3 4 5 
@@ -32,7 +32,7 @@ bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
 #feh --bg-fill ~/.config/awesome/theme/wallpapers/6.png
-wal -R
+bash "$HOME/.config/wpg/wp_init.sh" &
 picom --experimental-backends &
 xsetroot -cursor_name left_ptr &
 capesc

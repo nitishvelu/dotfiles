@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nitish/Pictures/wallpapers/103.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#050119",
+        "foreground": "#e1c9e9",
+        "cursor": "#e1c9e9"
+    },
+    "colors": {
+        "color0": "#050119",
+        "color1": "#A461BC",
+        "color2": "#3394D4",
+        "color3": "#5696D7",
+        "color4": "#7194D5",
+        "color5": "#8E98DA",
+        "color6": "#A4A2E0",
+        "color7": "#e1c9e9",
+        "color8": "#9d8ca3",
+        "color9": "#A461BC",
+        "color10": "#3394D4",
+        "color11": "#5696D7",
+        "color12": "#7194D5",
+        "color13": "#8E98DA",
+        "color14": "#A4A2E0",
+        "color15": "#e1c9e9"
+    }
+}
