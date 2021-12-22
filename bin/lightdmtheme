@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+FILEPATH=$(cat "$HOME"/.cache/wal/wal)
+rm /usr/share/lightdm-webkit/themes/lightdm-webkit-theme-aether/src/img/wallpapers/*.*
+cp "$FILEPATH" "/usr/share/lightdm-webkit/themes/lightdm-webkit-theme-aether/src/img/wallpapers/img.png"
+
