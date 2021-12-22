@@ -10,10 +10,10 @@ wmname LG3D &
 bspc config window_gap          12
 bspc config border_width         4
 bspc config split_ratio          0.50
-bspc config -m 0x0040000A top_padding 28
+bspc config -m eDP-1 top_padding 28
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
-bspc config -m 0x0040000A top_monocle_padding -28
+bspc config -m eDP-1 top_monocle_padding -28
 
 autorandr --change benq 
 bspc monitor eDP-1 -d 1 2 3 4 5 
