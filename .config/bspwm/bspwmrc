@@ -3,8 +3,8 @@
 pgrep -x sxhkd > /dev/null || sxhkd &
 killall "picom"
 bash "$HOME/.config/wpg/wp_init.sh" &
-killall "deadd-notification-center"
-deadd-notification-center &
+#killall "deadd-notification-center"
+#deadd-notification-center &
 wmname LG3D &
 #transmission-daemon &
 bspc config window_gap          12
