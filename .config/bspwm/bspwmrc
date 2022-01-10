@@ -5,6 +5,7 @@ killall "picom"
 bash "$HOME/.config/wpg/wp_init.sh" &
 #killall "deadd-notification-center"
 #deadd-notification-center &
+bash "$HOME/.config/dunst/launch_dunst.sh" &
 wmname LG3D &
 #transmission-daemon &
 bspc config window_gap          12
