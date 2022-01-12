@@ -128,7 +128,7 @@ fi
 # ranger configuration
 alias f="ranger"
 # ls v vim neovimm config
-alias clear="kitty @ set-spacing padding=15 margin=3  && clear"
+alias c="kitty @ set-spacing padding=15 margin=3  && clear"
 #alias ls="colorls"
 alias ls="lsd"
 alias v="kitty @ set-spacing padding=0 margin=0 && nvim"
